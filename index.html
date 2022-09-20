@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page CSS Grid</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <h2 class="nav__logo">SAIA</h2>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Acerca de</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero__main container">
+            <div class="hero__texts">
+                <h1 class="hero__title">Registrar</h1>
+                <p class="hero__subtitle">Porfavor registrar al usuario</p>
+                <a href="#" class="hero__cta">Click Aqui!</a>
+            </div>
+
+            <figure class="hero__picture">
+                <img src="assets/img/car.svg" class="hero__img">
+            </figure>
+        </section>
+
+        <div style="height: 150px; overflow: hidden;" class="hero__waves" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C262.08,217.40 378.89,-120.09 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+
+    <section class="modal ">
+        <div class="modal__container">
+            <img src="assets/img/Developer.svg" class="modal__img">
+            <h2 class="modal__title">Registrar Usuario</h2>
+            <label class="modal__label">Usuario:</label>
+            <input type="text" name="user" placeholder="Ingresar Usuario" class="modal__input">
+            <label class="modal__label">Contraseña:</label>
+            <input type="text" name="pasword" placeholder="Ingresar contraseña" class="modal__input">            <a href="#" class="modal__close">Registrar</a>
+        </div>
+    </section>
+
+
+   
+    <script src="assets/js/Main.js"></script>
+</body>
+</html>
